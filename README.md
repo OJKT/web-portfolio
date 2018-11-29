@@ -1,6 +1,126 @@
 # web-portfolio
 catch up
 <style>
+  body {
+  font-family: Raleway;
+}
+h1 {
+  font-family: Abril Fatface;
+}
+h2 {
+  font-size: 20px;
+}
+.image-1 {
+  background-image: url("https://coolwallpaper.website/wp-content/uploads/2018/10/tf2-engineer-wallpaper-best-of-engineering-background-wallpaper-wallpapersafari-of-tf2-engineer-wallpaper.jpg");
+  background-size: 100%;
+  min-height: 500px;
+}
+.image-2 {
+  background-image: url("https://static.interestingengineering.com/images/import/2017/03/46-engineer-gear.jpg");
+  background-size: 100%;
+  min-height: 200px;
+}
+.image-3{
+  background-image: url("https://i.imgpile.com/nw4FmW.jpg");
+    background-size: 100%;
+  min-height: 200px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: rgb(60, 60, 60);
+  background: rgba(60, 60, 60, 0.4);
+}
+.image-1 {
+  position: relative;
+  background-position: 100% calc(100% - 150px);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-2 {
+  position: relative;
+  background-position: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-3 {
+  position: relative;
+  background-position: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Portfolio */
+ .box {
+    height: auto;
+    float: left;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+
+}
+ .box .caption {
+    font-family: Abril Fatface;
+    font-size: 17px;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
+ .box:hover .fade-caption {
+    opacity: 1;
+}
+
+/* Contact */
+
+#icon {
+  text-align : center;
+  padding: 10px;
+  margin : 10px;
+}
+
+#footer {
+  background: black ;
+  width: 100%;
+}
+.form-group {
+  text-align: left;
+}
+.button {
+  text-align : right;
+  padding : 10px;
+}
+
+.copyright {
+  text-align : center;
+  color: white;
+}
+
 </style>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
